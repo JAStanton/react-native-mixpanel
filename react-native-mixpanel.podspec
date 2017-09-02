@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/davodesign84/react-native-mixpanel.git" }
   s.source_files = 'RNMixpanel/*'
   s.platform     = :ios, "7.0"
-  s.dependency 'Mixpanel'
+  s.dependency   = { 'Mixpanel', :git => 'https://github.com/JAStanton/mixpanel-iphone.git', :commit => '79ef3367208109667eb3f0abe783512fc7aad8c3' }
   s.dependency 'React'
 end
